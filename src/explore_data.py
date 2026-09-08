@@ -1,22 +1,32 @@
 import pandas as pd
+from pathlib import Path
+
 
 print("Fake News Detection Data Explorer")
 
-# 测试 pandas
-data = {
-    "text": [
-        "这是第一条新闻",
-        "这是第二条新闻"
-    ],
-    "label": [
-        0,
-        1
-    ]
-}
 
-df = pd.DataFrame(data)
+# 数据路径
+data_path = Path("data/raw/train.csv")
 
-print(df)
+print("数据路径:")
+print(data_path.absolute())
 
-print("\n数据基本信息：")
-print(df.info())
+
+# 判断文件是否存在
+if data_path.exists():
+
+    df = pd.read_csv(data_path)
+
+    print("\n数据预览:")
+    print(df.head())
+
+    print("\n数据规模:")
+    print(df.shape)
+
+    print("\n字段信息:")
+    print(df.info())
+
+else:
+
+    print("数据文件不存在:")
+    print(data_path)
