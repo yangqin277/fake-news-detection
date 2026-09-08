@@ -12,8 +12,11 @@ venv/
 .idea/
 
 # Large datasets
-data/*
-!data/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
 
 # Experiment outputs
 results/*
