@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Large datasets
+data/*
+!data/.gitkeep
+
+# Experiment outputs
+results/*
+!results/.gitkeep
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+
+# System files
+.DS_Store
+Thumbs.db
