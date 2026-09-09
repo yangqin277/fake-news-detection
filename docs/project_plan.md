@@ -4,16 +4,32 @@
 
 Security-oriented Chinese fake news detection.
 
+The project aims to build a trustworthy fake news detection system with detection, explanation and robustness evaluation.
+
+## Dataset
+
+Weibo21
+
 ## Baseline
 
-TF-IDF + Logistic Regression
+- TF-IDF + Logistic Regression
+- Traditional machine learning classifier
 
-## Deep Learning
+## Deep Learning Models
 
-BERT / MacBERT
+- BERT
+- MacBERT
 
-## Security Extensions
+## Security-oriented Extensions
 
-- Explainability
-- Robustness evaluation
-- Domain adaptation
+### Explainability
+
+Analyze why the model predicts fake news.
+
+### Robustness Evaluation
+
+Study model performance under adversarial text perturbations.
+
+### Domain Adaptation
+
+Improve detection across different news domains.
