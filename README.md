@@ -32,7 +32,7 @@ Chinese MacBERT fine-tuning
 | Model | Accuracy | F1 |
 |-|-|-|
 | TF-IDF + LR |0.795|0.790|
-| MacBERT |0.888|0.883|
+| MacBERT |0.8879|0.8828|
 
 
 ## Environment
