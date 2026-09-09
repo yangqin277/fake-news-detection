@@ -47,3 +47,8 @@ Analysis:
 
 The sentence contains formal expressions such as
 "专家表示", which may make the text appear credible.
+
+## Future Improvement
+
+Possible improvements include introducing external knowledge,
+source credibility information, and retrieval-based verification methods.

@@ -173,3 +173,14 @@ MacBERT achieves strong performance on fake news detection.
 The model can effectively capture semantic information from news texts.
 However, some false positives and false negatives remain, indicating that
 the model may still be affected by writing style and domain distribution.
+
+## Conclusion
+
+Experimental results show that MacBERT achieves better performance than
+traditional TF-IDF based methods.
+
+The improvement indicates that contextual semantic representation is useful
+for fake news detection.
+
+However, domain differences and implicit misinformation patterns remain
+challenging problems.

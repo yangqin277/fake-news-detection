@@ -51,7 +51,16 @@ Train:
 ```bash
 python src/train_macbert.py
 
+```
 Predict：
 
+```bash
 python src/test_macbert.py
+
+```
+## Evaluation
+
+Confusion Matrix:
+
+![MacBERT Confusion Matrix](results/macbert_confusion_matrix.png)
 
