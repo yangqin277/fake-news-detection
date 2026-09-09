@@ -1,28 +1,57 @@
-# Fake News Detection
+# Fake News Detection Based on MacBERT
 
-A security-oriented research project for Chinese fake news detection.
 
-This project explores NLP-based fake news detection,
-with emphasis on explainability, domain adaptation,
-and trustworthy AI.
+## Introduction
 
-## Goal
+This project focuses on Chinese fake news detection.
 
-Build a Chinese fake news detection system based on NLP methods.
+We compare traditional machine learning methods with
+pretrained language models.
 
-## Current Progress
 
-- [x] Project initialization
-- [x] Python environment setup
-- [x] Data exploration pipeline
+## Dataset
+
+Dataset:
+Weibo21
+
 
 ## Methods
 
 Baseline:
-- TF-IDF + Machine Learning
-- BERT-based classifier
 
-Advanced:
-- Domain-aware detection
-- Explainable AI
-- Robustness evaluation
+TF-IDF + Logistic Regression
+
+
+Advanced Model:
+
+Chinese MacBERT fine-tuning
+
+
+## Results
+
+| Model | Accuracy | F1 |
+|-|-|-|
+| TF-IDF + LR |0.795|0.790|
+| MacBERT |0.888|0.883|
+
+
+## Environment
+
+Python
+
+PyTorch
+
+Transformers
+
+
+## Usage
+
+Train:
+
+```bash
+python src/train_macbert.py
+
+Predict：
+
+python src/test_macbert.py
+
